@@ -1,6 +1,0 @@
-DELETE FROM status;
-INSERT INTO status (id,name,description,defaultPoint,checkPeriod,periodicPoint) VALUES ('ACP','AP','Increases as the level rises','20','5','1');
-INSERT INTO status (id,name,description,defaultPoint,checkPeriod,periodicPoint) VALUES ('BTP','BP','Increases as the level rises','5','60','1');
-INSERT INTO status (id,name,description,defaultPoint,checkPeriod,periodicPoint) VALUES ('MAX_ACP','【かり】Max AP','Increases as the level rises','20','0','0');
-INSERT INTO status (id,name,description,defaultPoint,checkPeriod,periodicPoint) VALUES ('MAX_BTP','【仮】Max BP','Increases as the level rises','5','0','0');
-INSERT INTO status (id,name,description,defaultPoint,checkPeriod,periodicPoint) VALUES ('MAX_FOLLOW','【仮】Max follow','Increases as the level rises','10','0','0');
